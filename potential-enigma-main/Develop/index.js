@@ -42,17 +42,6 @@ inquirer
             name: 'tests',
           },
           {
-            type: 'list',
-            message: 'Choose a license.',
-            name: 'license',
-            choices: [
-              { name: 'MIT', value: mit }, 
-              { name: 'Apache 2.0', value: apache }, 
-              { name: 'ISC', value: isc }, 
-              { name: 'BSD', value: bsd }
-            ]
-          },
-          {
             type: 'input',
             message: 'What is your GitHub username?',
             name: 'username',
